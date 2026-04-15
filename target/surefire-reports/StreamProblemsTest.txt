@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: StreamProblemsTest
+-------------------------------------------------------------------------------
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 59, Time elapsed: 0.800 s -- in StreamProblemsTest

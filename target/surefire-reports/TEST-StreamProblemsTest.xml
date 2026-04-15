@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StreamProblemsTest" time="0.8" tests="59" errors="0" skipped="59" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\codeWithMe\streamsApi\target\test-classes;C:\codeWithMe\streamsApi\target\classes;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\avijit.rana\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\javaHome\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\avijit.rana\AppData\Local\Temp\surefire13471693506203845436\surefirebooter-20260415110105248_3.jar C:\Users\avijit.rana\AppData\Local\Temp\surefire13471693506203845436 2026-04-15T11-01-04_125-jvmRun1 surefire-20260415110105248_1tmp surefire_0-20260415110105248_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\codeWithMe\streamsApi\target\test-classes;C:\codeWithMe\streamsApi\target\classes;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\avijit.rana\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\avijit.rana\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\avijit.rana"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\javaHome\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\codeWithMe\streamsApi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\avijit.rana\AppData\Local\Temp\surefire13471693506203845436\surefirebooter-20260415110105248_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="avijit.rana"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\avijit.rana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AVIJIT~1.RAN\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\codeWithMe\streamsApi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\javaHome\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\avijit.rana\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\avijit.rana\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\avijit.rana\AppData\Local\Programs\Microsoft VS Code;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\javaHome\jdk-17\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\avijit.rana\AppData\Local\Microsoft\WindowsApps;C:\Users\avijit.rana\AppData\Local\Programs\Microsoft VS Code\bin;C:\MAVEN\apache-maven-3.9.4\bin;C:\Users\avijit.rana\AppData\Roaming\npm;C:\Users\avijit.rana\AppData\Local\GitHubDesktop\bin;C:\Users\avijit.rana\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\avijit.rana\AppData\Local\Programs\Git\cmd;C:\Users\avijit.rana\AppData\Local\Programs\Antigravity\bin;C:\Users\avijit.rana\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;c:\Users\avijit.rana\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="test_canReuseStream" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'canReuseStream' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_canReuseStream(StreamProblemsTest.java:543)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_charOccurrences" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'charOccurrences' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_charOccurrences(StreamProblemsTest.java:196)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_multiplyAllElements" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'multiplyAllElements' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_multiplyAllElements(StreamProblemsTest.java:534)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_calculateAverage" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'calculateAverage' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_calculateAverage(StreamProblemsTest.java:446)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_wordsWithVowelCount" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'wordsWithVowelCount' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_wordsWithVowelCount(StreamProblemsTest.java:174)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_findWordWithSecondHighestLength" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'findWordWithSecondHighestLength' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_findWordWithSecondHighestLength(StreamProblemsTest.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_concatenateStreams" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'concatenateStreams' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_concatenateStreams(StreamProblemsTest.java:572)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_filterReductionAverageMin" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'filterReductionAverageMin' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_filterReductionAverageMin(StreamProblemsTest.java:593)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_squareNumbersToArray" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'squareNumbersToArray' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_squareNumbersToArray(StreamProblemsTest.java:488)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_extractIntegers" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'extractIntegers' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_extractIntegers(StreamProblemsTest.java:264)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_toUpperCaseAndConcat" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'toUpperCaseAndConcat' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_toUpperCaseAndConcat(StreamProblemsTest.java:551)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_moveZerosToBeginning" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'moveZerosToBeginning' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_moveZerosToBeginning(StreamProblemsTest.java:324)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_fibonacci" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'fibonacci' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_fibonacci(StreamProblemsTest.java:477)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_listToMap" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'listToMap' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_listToMap(StreamProblemsTest.java:522)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_middleCharacter" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'middleCharacter' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_middleCharacter(StreamProblemsTest.java:639)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_groupByRange" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'groupByRange' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_groupByRange(StreamProblemsTest.java:251)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_transformPersonsToString" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'transformPersonsToString' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_transformPersonsToString(StreamProblemsTest.java:497)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_intersection" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'intersection' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_intersection(StreamProblemsTest.java:455)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_squareNumbers" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'squareNumbers' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_squareNumbers(StreamProblemsTest.java:375)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_productOfFirstTwo" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'productOfFirstTwo' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_productOfFirstTwo(StreamProblemsTest.java:273)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_limitInfiniteStream" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'limitInfiniteStream' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_limitInfiniteStream(StreamProblemsTest.java:616)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_avgSalaryByDepartment" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'avgSalaryByDepartment' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_avgSalaryByDepartment(StreamProblemsTest.java:711)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_divideEvenOdd" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'divideEvenOdd' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_divideEvenOdd(StreamProblemsTest.java:185)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_sortNumbers" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'sortNumbers' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_sortNumbers(StreamProblemsTest.java:208)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_sortAlphabetically" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'sortAlphabetically' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_sortAlphabetically(StreamProblemsTest.java:366)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_avoidStreamReuse" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'avoidStreamReuse' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_avoidStreamReuse(StreamProblemsTest.java:607)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_distinctOddNumbers" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'distinctOddNumbers' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_distinctOddNumbers(StreamProblemsTest.java:384)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_distinctNumbersStartingWith1" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'distinctNumbersStartingWith1' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_distinctNumbersStartingWith1(StreamProblemsTest.java:649)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_personComparator" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'personComparator' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_personComparator(StreamProblemsTest.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_firstRepeatedChar" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'firstRepeatedChar' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_firstRepeatedChar(StreamProblemsTest.java:241)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_multiplyAlternativeNumbers" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'multiplyAlternativeNumbers' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_multiplyAlternativeNumbers(StreamProblemsTest.java:300)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_toUpperCase" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'toUpperCase' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_toUpperCase(StreamProblemsTest.java:437)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_multiplySymmetricElements" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'multiplySymmetricElements' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_multiplySymmetricElements(StreamProblemsTest.java:311)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_domainOccurrences" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'domainOccurrences' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_domainOccurrences(StreamProblemsTest.java:466)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_filterAndModifySalary" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'filterAndModifySalary' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_filterAndModifySalary(StreamProblemsTest.java:661)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_groupAnagrams" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'groupAnagrams' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_groupAnagrams(StreamProblemsTest.java:282)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_stringToLengthMap" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'stringToLengthMap' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_stringToLengthMap(StreamProblemsTest.java:742)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_avgAgeByGender" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'avgAgeByGender' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_avgAgeByGender(StreamProblemsTest.java:627)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_removeNonNumericChars" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'removeNonNumericChars' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_removeNonNumericChars(StreamProblemsTest.java:417)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_sumOfUniqueElements" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'sumOfUniqueElements' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_sumOfUniqueElements(StreamProblemsTest.java:219)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_getAllWordsUsingFlatMap" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'getAllWordsUsingFlatMap' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_getAllWordsUsingFlatMap(StreamProblemsTest.java:562)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_countSubstring" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'countSubstring' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_countSubstring(StreamProblemsTest.java:692)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_reorderChronologically" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'reorderChronologically' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_reorderChronologically(StreamProblemsTest.java:723)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_kthSmallest" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'kthSmallest' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_kthSmallest(StreamProblemsTest.java:406)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_hasDistinctValues" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'hasDistinctValues' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_hasDistinctValues(StreamProblemsTest.java:335)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_transformToDTO" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'transformToDTO' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_transformToDTO(StreamProblemsTest.java:754)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_sumOfAllElements" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'sumOfAllElements' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_sumOfAllElements(StreamProblemsTest.java:357)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_wordOccurrences" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'wordOccurrences' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_wordOccurrences(StreamProblemsTest.java:162)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_groupByFirstCharAndCount" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'groupByFirstCharAndCount' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_groupByFirstCharAndCount(StreamProblemsTest.java:510)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_groupByMiddleChar" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'groupByMiddleChar' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_groupByMiddleChar(StreamProblemsTest.java:344)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_find2ndHighestLengthWord" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'find2ndHighestLengthWord' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_find2ndHighestLengthWord(StreamProblemsTest.java:149)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_charWithMaxFrequency" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'charWithMaxFrequency' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_charWithMaxFrequency(StreamProblemsTest.java:733)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_avoidComplexPipeline" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'avoidComplexPipeline' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_avoidComplexPipeline(StreamProblemsTest.java:583)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_firstNonRepeatedChar" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'firstNonRepeatedChar' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_firstNonRepeatedChar(StreamProblemsTest.java:230)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_removeDuplicates" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'removeDuplicates' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_removeDuplicates(StreamProblemsTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_findWordWithHighestLength" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'findWordWithHighestLength' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_findWordWithHighestLength(StreamProblemsTest.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_stringsContainingOnlyDigits" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'stringsContainingOnlyDigits' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_stringsContainingOnlyDigits(StreamProblemsTest.java:427)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_union" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'union' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_union(StreamProblemsTest.java:395)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+  <testcase name="test_departmentWithMaxPeople" classname="StreamProblemsTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: Skipping 'departmentWithMaxPeople' — not yet in ENABLED set
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at StreamProblemsTest.skip(StreamProblemsTest.java:106)
+	at StreamProblemsTest.test_departmentWithMaxPeople(StreamProblemsTest.java:702)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></skipped>
+  </testcase>
+</testsuite>
